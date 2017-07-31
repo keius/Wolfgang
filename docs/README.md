@@ -1,4 +1,4 @@
-## Piano Piano Revolution
+## Wolfgang
 
 ### Background
 
@@ -42,13 +42,13 @@ In addition to the webpack entry file, there will be multiple scripts involved i
 
 `progress.js`: this script will create the animation for the progress tracking.
 
-`keycodes.js`: this script will handle the keys in piano.
+`keycodes.js`: this script will handle the keys.
 
 `sounds.js`: this script will connect the keys to sound files.
 
 `main.js`: this script will handle the logic for the board and rendering.
 
-`blocks.js`: this script will house the constructor and update functions for the `Block` objects.  Each `Block` will contain a `note` (piano notes), `time` (at which it should be played), and `hit` (`true` or `false`).
+`blocks.js`: this script will house the constructor and update functions for the `Block` objects.  Each `Block` will contain a `note` (violin notes), `time` (at which it should be played), and `hit` (`true` or `false`).
 
 `utils.js`: this script will handle vector math for the blocks.
 
@@ -69,7 +69,7 @@ In addition to the webpack entry file, there will be multiple scripts involved i
 **Day 3**: Create the blocks moving according to a song. Goals for the day:
 
 - Build DB on notes and timestamps to create velocity for each block.
-- Build interaction between the blocks and key pressed with piano to keep track of score based on hit/miss, as well as duration.
+- Build interaction between the blocks and key pressed with violin to keep track of score based on hit/miss, as well as duration.
 
 **Day 4**: Install the controls for the user to interact with the game.  Style the frontend. Goals for the day:
 
