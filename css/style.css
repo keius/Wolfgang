@@ -6,6 +6,6 @@ body {
   justify-content: center;
 }
 #gameCanvas {
-  background: url(http://res.cloudinary.com/dvylj9hyw/image/upload/e_blur:200,o_80/v1501612897/wolfgang/wolfgang-background.jpg);
+  /*background: url(http://res.cloudinary.com/dvylj9hyw/image/upload/e_blur:200,o_80/v1501612897/wolfgang/wolfgang-background.jpg);*/
   background-size: cover;
 }
