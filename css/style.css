@@ -1,9 +1,17 @@
 body {
   display: flex;
+  flex-direction: column;
   padding: 0;
   margin: 0;
   background-color: black;
-  justify-content: center;
+  align-items: center;
+  font-family: 'Saira Condensed', sans-serif;
+  font-size: 30px;
+  color: white;
+}
+
+h1 {
+  font-size: 30px;
 }
 #gameCanvas {
   /*background: url(http://res.cloudinary.com/dvylj9hyw/image/upload/e_blur:200,o_80/v1501612897/wolfgang/wolfgang-background.jpg);*/
