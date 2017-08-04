@@ -8,6 +8,7 @@ Wolfgang is an violin-specific adaptation of Guitar Hero, named after the famous
 
 With Wolfgang, users will be able to:
 
+- [ ] Restart the game
 - [ ] Press computer keys to match the falling block pattern to the music.
 - [ ] Visualized pattern matching score
 - [ ] Animation when keys are pressed
