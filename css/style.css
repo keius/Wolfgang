@@ -13,7 +13,22 @@ body {
 h1 {
   font-size: 30px;
 }
+
+.links {
+  display: flex;
+  padding-left: 20px;
+  padding-right: 20px;
+  flex-direction: row;
+}
+
+.github {
+  margin-right: 20px;
+}
+
+.linkedin {
+  margin-left: 20px;
+}
+
 #gameCanvas {
-  /*background: url(http://res.cloudinary.com/dvylj9hyw/image/upload/e_blur:200,o_80/v1501612897/wolfgang/wolfgang-background.jpg);*/
   background-size: cover;
 }
