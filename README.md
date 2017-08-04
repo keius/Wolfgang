@@ -3,11 +3,11 @@
 Wolfgang is an violin-specific adaptation of Guitar Hero, named after the famous composer Wolfgang Amadeus Mozart. In the original Guitar Hero, players press the buttons and the strum tab on the guitar controller according to the pattern shown on the screen. In Wolfgang, the strumming is replaced by bowing, and emphasis is placed on holding down the bow stroke for the duration of the note.
 
 ## Features
-[Start Screen][start]
+![Start Screen][start]
 
 - Players see a calming start screen before they choose to play the game.
 
-[In Game][game]
+![In Game][game]
 
 - Each note of the song is represented by "blocks" which fall down in sync with the music
 - Players can press the correct "string" (for the 4 strings on the violin) key as well as the "bow" key to play, for a variable duration
