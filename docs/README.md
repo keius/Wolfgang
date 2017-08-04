@@ -8,8 +8,6 @@ Wolfgang is an violin-specific adaptation of Guitar Hero, named after the famous
 
 With Wolfgang, users will be able to:
 
-- [ ] Start and reset the game
-- [ ] Play or mute the sound
 - [ ] Press computer keys to match the falling block pattern to the music.
 - [ ] Visualized pattern matching score
 - [ ] Animation when keys are pressed
@@ -33,24 +31,18 @@ This project will be implemented with the following technologies:
 - Webpack to bundle and serve up the various scripts,
 - `Howler.js` for audio,
 - `HTML5 Canvas` for DOM manipulation and rendering,
-- `anime.js` to create animations for keydown event.
-- `Easel.js` to create progress animation.
 
 In addition to the webpack entry file, there will be multiple scripts involved in this project:
 
-`animations.js`: this script will create special effects on key press.
+`violin.js`: this script will render the violin.
 
-`progress.js`: this script will create the animation for the progress tracking.
+`song.js`: this script will hosue the constructor and update functions for `Song` objects, which is an array of `Note` objects.
 
-`keycodes.js`: this script will handle the keys.
+`game.js`: this script will handle the logic for the board and rendering.
 
-`sounds.js`: this script will connect the keys to sound files.
+`note.js`: this script will house the constructor and update functions for the `Note` objects.
 
-`main.js`: this script will handle the logic for the board and rendering.
-
-`blocks.js`: this script will house the constructor and update functions for the `Block` objects.  Each `Block` will contain a `note` (violin notes), `time` (at which it should be played), and `hit` (`true` or `false`).
-
-`utils.js`: this script will handle vector math for the blocks.
+`main.js`: this will house all the above scripts to be played in the window.
 
 ### Implementation Timeline
 
@@ -58,7 +50,6 @@ In addition to the webpack entry file, there will be multiple scripts involved i
 
 - Get a working bundle with `webpack`
 - Render an object to the `Canvas` element
-- Start figuring out progress animations using `Easel.js`
 
 **Day 2**: Dedicate this day to creating violin and blocks. Goals for the day:
 

@@ -4,14 +4,23 @@
     <meta charset="utf-8">
     <title>Wolfgang</title>
     <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Saira+Condensed" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/howler.js/2.0.3/howler.js"></script>
+    <script src="https://cdn.jsdelivr.net/howler.js/2.0.3/howler.min.js"></script>
+    <script src="https://use.fontawesome.com/a26ad5bb3b.js"></script>
   </head>
   <body>
 
     <div>
-      <canvas id="progressCanvas" width="800px", height="800px"></canvas>
       <canvas id="gameCanvas" width="800px", height="800px"></canvas>
     </div>
 
+    <script>
+      window.mary = new Howl({
+        src: ['./lib/canon.mp3']
+      })
+      window.mary.play();
+    </script>
     <script src="./lib/bundle.js"></script>
   </body>
 </html>
