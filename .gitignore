@@ -5,8 +5,6 @@
 #   git config --global core.excludesfile '~/.gitignore_global'
 
 # Ignore bundler config.
-/lib/bundle.js
-/lib/bundle.js.map
 
 # Ignore all logfiles and tempfiles.
 /log/*
