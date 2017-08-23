@@ -2,6 +2,8 @@
 
 [Wolfgang][wolfgang] is a violin-specific adaptation of Guitar Hero, named after the famous composer Wolfgang Amadeus Mozart. In the original Guitar Hero, players press the buttons and the strum tab on the guitar controller according to the pattern shown on the screen. In Wolfgang, the strumming is replaced by bowing, and emphasis is placed on holding down the bow stroke for the duration of the note.
 
+Wolfgang is mainly built in vanilla Javascript, with assistance from Howler.js and HTML5 Canvas.
+
 ## Features
 ![Start Screen][start]
 
